@@ -1,0 +1,25 @@
+a {
+	text-decoration: none;
+	color: #6ab47b;
+}
+
+#wrapper {
+	max-width: 100%;
+	margin: 0 0 0 0;
+	background: #6ab47b;
+	position: center;
+}
+
+#header {
+	border-color: #599A68;
+}
+
+h1, h2 {
+	text-align: center;
+	margin: 0 0 0 0;
+	color: #ffffff;
+}
+
+h2 {
+	margin: 10px 0 0 0;
+}
