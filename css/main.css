@@ -10,6 +10,11 @@ a {
 	position: center;
 }
 
+body {
+	background-color: #FFF;
+	color: #999;
+}
+
 #header {
 	border-color: #599A68;
 }
@@ -23,3 +28,19 @@ h1, h2 {
 h2 {
 	margin: 10px 0 0 0;
 }
+
+nav {
+background: #599A68;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+
+
+
