@@ -1,7 +1,6 @@
-a {
-	text-decoration: none;
-	color: #6ab47b;
-}
+/********************
+	GENERAL
+********************/
 
 #wrapper {
 	max-width: 100%;
@@ -10,14 +9,14 @@ a {
 	position: center;
 }
 
-body {
-	background-color: #FFF;
-	color: #999;
+a {
+	text-decoration: none;
+	color: #6ab47b;
 }
 
-#header {
-	border-color: #599A68;
-}
+/********************
+	HEADING
+********************/
 
 h1, h2 {
 	text-align: center;
@@ -25,8 +24,28 @@ h1, h2 {
 	color: #ffffff;
 }
 
+h1 {
+	font-family: 'Merienda', cursive;
+	padding: 15px 0px;
+	font-size: 1.75em;
+}
+
 h2 {
 	margin: 10px 0 0 0;
+}
+
+/********************
+	COLOURS
+********************/
+
+
+body {
+	background-color: #FFF;
+	color: #999;
+}
+
+#header {
+	border-color: #599A68;
 }
 
 nav {
