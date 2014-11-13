@@ -7,11 +7,16 @@
 	margin: 0 0 0 0;
 	background: #6ab47b;
 	position: center;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
 	text-decoration: none;
 	color: #6ab47b;
+}
+
+#images {
+	font-family: 'Open Sans', sans-serif;
 }
 
 /********************
@@ -67,4 +72,12 @@ footer {
 
 }
 
+/********************
+	COLOUR SCHEME
+********************/
+#1D2F3E
+#152737
+#0F9FB4
+#0FB493
+#C9E1C1
 
