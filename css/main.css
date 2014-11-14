@@ -5,18 +5,20 @@
 #wrapper {
 	max-width: 100%;
 	margin: 0 0 0 0;
-	background: #6ab47b;
-	position: center;
 	font-family: 'Open Sans', sans-serif;
 }
 
 a {
 	text-decoration: none;
-	color: #6ab47b;
+	color: #ffffff;
 }
 
 #images {
 	font-family: 'Open Sans', sans-serif;
+}
+
+#navbar {
+	background-color: #0FB493;
 }
 
 /********************
@@ -37,22 +39,26 @@ h1 {
 
 h2 {
 	font-family: 'Merienda', cursive;
-	margin: 10px 0 0 0;
+	margin: 0 0 0 0;
+	font-size: 1.25em;
 }
 
 /********************
 	COLOURS
 ********************/
 
-
 body {
-	background-color: #FFF;
+	background-color: #C9E1C1;
 	color: #999;
 	font-family: 'Open-Sans', sans-serif;
 }
 
-#header {
-	border-color: #599A68;
+#wrapper {
+	background-image: radial-gradient(
+		circle at bottom,
+    #0F9FB4,
+    #152737
+  );
 }
 
 nav {
