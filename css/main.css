@@ -125,6 +125,7 @@ nav a.selected, nav a:hover {
 }
 
 footer {
+	clear: both;
 	font-family: 'Merienda', cursive;
 
 }
@@ -146,6 +147,15 @@ nav {
 	text-align: center;
 	padding: 10px;
 	margin: ;
+}
+
+nav ul {
+	display: inline-block;
+}
+
+nav ul li {
+	float: left;
+	margin-left: 2em;
 }
 
 
