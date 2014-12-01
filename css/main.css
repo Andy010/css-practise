@@ -21,10 +21,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-img {
-	max-width: 100%;
+/*img {
+	max-width: 80%;
 }
-
+*/
 /********************
 	HEADING
 ********************/
@@ -75,24 +75,41 @@ body {
 
 img {
 	max-width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 /********************
 	PAGE PORTFOLIO
 ********************/
 
-#gallery {
+/*#gallery {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	width: 1000px;
+}*/
+
+.painting {
+	margin:0;
+	padding:0;
 }
 
 #gallery li {
-	float: right;
-	width: 45%;
-	margin: 2.5%;
+	display: inline-block;
+	position: relative;
+	max-width: 45%;
+	width: inline-block;
 	background-color: #F5F5F5;
 	color: #BDC3C7;
+	size: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#gallery li p {
+	font-size: 0.75em;
+	color: #bdc3c7;
 }
 
 /********************
@@ -166,6 +183,7 @@ nav ul li {
 footer {
 	font-size: 0.75em;
 	text-align: center;
+	clear: both;
 	padding: 0 0 0 0;
 	color: #ccc;
 }
